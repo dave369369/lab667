@@ -5,9 +5,9 @@
 #define DHTPIN 4        // GPIO pin where DHT data is connected
 #define DHTTYPE DHT11   // DHT 11 sensor type
 
-const char* ssid = "TIPIANS";  // Replace with your WiFi name
-const char* password = "";  // Replace with your WiFi password
-const char* serverUrl = "http://172.20.8.153:3000/data"; // Update with your server IP and endpoint
+const char* ssid = "WellIns";  // Replace with your WiFi name
+const char* password = "jadejadejade";  // Replace with your WiFi password
+const char* serverUrl = "http://172.20.10.4:3000/data"; // Update with your server IP and endpoint
 
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient wifiClient; // Create a WiFiClient object
